@@ -11,4 +11,6 @@ public class AppDbContext : DbContext
 	}
 
 	public DbSet<User> Users { get; set; }
+
+	// just some comments are added..
 }
