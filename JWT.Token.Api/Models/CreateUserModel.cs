@@ -3,8 +3,11 @@ using System.Diagnostics.Contracts;
 
 namespace JWT.Token.Api.Models;
 
-public class UserLoginModel
+public class CreateUserModel
 {
+    [Required]
+    public string Name { get; set; }
+
     [Required]
     public string Email { get; set; }
 
